@@ -1,5 +1,12 @@
 # Python 🐍💻
 
+## Tipos
+### Convertendo os tipos:
+int(2.2) = 2 <br>
+float(2) = 2.0 <br>
+str(2) = "2" <br>
+int(True) = 1 <br>
+bool(1) = True
 
 ## String 📃
 
