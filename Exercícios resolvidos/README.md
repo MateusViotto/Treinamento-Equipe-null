@@ -9,7 +9,7 @@
 <b>Atenção: Todos os métodos retornam um novo valor, eles não alteram o valor original.</b>
 
 
-- capitalize()	&emsp;  Converts the first character to upper case
+- capitalize()	&emsp;&emsp;&emsp;  Converts the first character to upper case
 - casefold()	    Converts string into lower case
 - center()	      Returns a centered string
 - count()	        Returns the number of times a specified value occurs in a string
