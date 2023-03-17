@@ -3,19 +3,19 @@
 ## Tipos
 ### Convertendo os tipos:
 <i>int(2.2) = 2 </i><br>
-Converte um número float em um inteiro.br><br>
+Converte um número float em um inteiro.<br><br>
 
 <i>float(2) = 2.0 </i><br>
-Converte um número inteiro em um float.br><br>
+Converte um número inteiro em um float.<br><br>
 
 <i>str(2) = "2" </i><br>
-Converte um número em string.br><br>
+Converte um número em string.<br><br>
 
 <i>int(True) = 1 </i><br>
-Converte um booleano em inteiro.br><br>
+Converte um booleano em inteiro.<br><br>
 
 <i>bool(1) = True </i>
-Converte um inteiro em booleano.
+Converte um inteiro em booleano.<br><br>
 
 ## String 📃
 
