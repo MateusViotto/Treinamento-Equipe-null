@@ -1,6 +1,6 @@
 # Python 🐍💻
 
-## Tipos
+## Tipos 🔍
 ### Convertendo os tipos:
 <i>int(2.2) = 2 </i><br>
 Converte um número float em um inteiro.<br><br>
