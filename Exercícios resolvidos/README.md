@@ -1,6 +1,6 @@
 # Python 🐍💻
 
-## Variáveis 🔠
+## <center>Variáveis 🔠</center>
 
 <i>x = 0 </i><br>
 Declara uma variável x com o valor 0<br><br>
