@@ -1,20 +1,29 @@
 # Python 🐍💻
 
+## Variáveis 🔠
+
+<i>x = 0 </i><br>
+Declara uma variável x com o valor 0<br><br>
+
+<i>int(x) = 0 </i><br>
+Declara uma variável inteira x com o valor 0<br><br>
+
+
 ## Tipos ⌨
 ### Convertendo os tipos:
-<i>int(2.2) = 2 </i><br>
+<i>int(2.2) : 2 </i><br>
 Converte um número float em um inteiro.<br><br>
 
-<i>float(2) = 2.0 </i><br>
+<i>float(2) : 2.0 </i><br>
 Converte um número inteiro em um float.<br><br>
 
-<i>str(2) = "2" </i><br>
+<i>str(2) : "2" </i><br>
 Converte um número em string.<br><br>
 
-<i>int(True) = 1 </i><br>
+<i>int(True) : 1 </i><br>
 Converte um booleano em inteiro.<br><br>
 
-<i>bool(1) = True </i><br>
+<i>bool(1) : True </i><br>
 Converte um inteiro em booleano.<br><br>
 
 ## String 📃
