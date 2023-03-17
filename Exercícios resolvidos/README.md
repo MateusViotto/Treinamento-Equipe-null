@@ -3,6 +3,16 @@
 
 ## String 📃
 
+### Navegando pela string:
+
+<i>a = "Hello, World!"
+print(a[1])</i>
+Imprime a segunda letra da variável "a" (e).
+
+<i>a = "Hello, World!"
+print(a[-1])</i>
+Imprime a última letra da variável "a" (d).
+
 ### Métodos:
 
 
