@@ -5,7 +5,7 @@
 
 ### Navegando pela string:
 
-#### Fatiando a string
+#### Fatiando a string:
 <i>
 a[1]</i><br>
 Consulta a segunda letra da variável "a".<br><br>
@@ -30,7 +30,7 @@ Consulta todas as letras até da 1 em diante da variável "a".<br><br>
 a[-10: -1]</i><br>
 Consulta as letras no intervado de 10 a 1 da variável "a".<br><br>
 
-#### Modificando a string
+#### Modificando a string:
 
 <i>
 a.upper()</i><br>
@@ -45,14 +45,14 @@ a.strip()</i><br>
 Remove todos os espaços da variável.<br><br>
 
 <i>
-a.replace("H", "J")()</i><br>
+a.replace("H", "J")</i><br>
 Substitui todas as letras "H" pela letra "J" na variável.<br><br>
 
 <i>
 a.split(",")</i><br>
 Separa a string em tuplas.<br><br>
 
-#### Outros
+#### Outros:
 <i>
 len(a)</i><br>
 Consulta o tamanho da variável "a".<br><br>
