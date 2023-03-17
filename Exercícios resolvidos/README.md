@@ -5,7 +5,9 @@
 
 ### Métodos:
 
+
 <b>Atenção: Todos os métodos retornam um novo valor, eles não alteram o valor original.</b>
+
 
 - capitalize()	Converts the first character to upper case
 - casefold()	Converts string into lower case
