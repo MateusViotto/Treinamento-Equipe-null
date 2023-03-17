@@ -5,13 +5,13 @@
 
 ### Navegando pela string:
 
-<i>a = "Hello, World!"
-print(a[1])</i>
-Imprime a segunda letra da variável "a" (e).
+<i>a = "Hello, World!"<br>
+print(a[1])</i><br>
+Imprime a segunda letra da variável "a" (e).<br>
 
-<i>a = "Hello, World!"
-print(a[-1])</i>
-Imprime a última letra da variável "a" (d).
+<i>a = "Hello, World!"<br>
+print(a[-1])</i><br>
+Imprime a última letra da variável "a" (d).<br>
 
 ### Métodos:
 
