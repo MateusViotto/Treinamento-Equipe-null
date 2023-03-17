@@ -7,7 +7,7 @@
 
 <i>
 a[1]</i><br>
-Consulta a segunda letra da variável "a".<br>
+Consulta a segunda letra da variável "a".<br><br>
 
 <i>
 a[-1]</i><br>
