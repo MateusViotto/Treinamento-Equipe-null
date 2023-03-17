@@ -11,7 +11,35 @@ Consulta a segunda letra da variável "a".<br><br>
 
 <i>
 a[-1]</i><br>
-Consulta a última letra da variável "a".<br>
+Consulta a última letra da variável "a".<br><br>
+
+<i>
+a[0:10]</i><br>
+Consulta as letras no intervado de 0 a 10 da variável "a".<br><br>
+
+<i>
+a[:10]</i><br>
+Consulta todas as letras até a 10 da variável "a".<br><br>
+
+<i>
+a[1:]</i><br>
+Consulta todas as letras até da 1 em diante da variável "a".<br><br>
+
+<i>
+a[-10: -1]</i><br>
+Consulta as letras no intervado de 10 a 1 da variável "a".<br><br>
+
+<i>
+len(a)</i><br>
+Consulta o tamanho da variável "a".<br><br>
+
+<i>
+print("free" in txt)</i><br>
+Retorna True/False caso "free" faça parte da variável txt.<br><br>
+
+<i>
+print("free" in txt)</i><br>
+Retorna True/False caso "free" faça parte da variável txt.<br><br>
 
 ### Métodos:
 
