@@ -14,7 +14,7 @@ Converte um número em string.<br><br>
 <i>int(True) = 1 </i><br>
 Converte um booleano em inteiro.<br><br>
 
-<i>bool(1) = True </i>
+<i>bool(1) = True </i><br>
 Converte um inteiro em booleano.<br><br>
 
 ## String 📃
