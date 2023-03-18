@@ -17,6 +17,20 @@ Booleano retorna True ou False.<br><br>
 
 <i>print( isinstace ( x , int ))</i><br>
 Verifica se x é um número inteiro.<br><br>
+  
+## Operadores
+  
+  Adição: <b>+</b><br>
+  Subtração: <b>-</b><br>
+  Multiplicação: <b>*</b><br>
+  Divisão: <b>/</b><br>
+  Módulo: <b>%</b><br>
+  Exponenciação: <b>**</b><br>
+  Resto: <b>//</b><br><br>
+  
+  E: <b>&</b><br>
+  Ou: <b>|</b><br>
+  Não: <b>~</b><br><br>
 
 ## Tipos ⌨
 ### Convertendo os tipos:
