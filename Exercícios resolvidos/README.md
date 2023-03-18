@@ -20,17 +20,17 @@ Verifica se x é um número inteiro.<br><br>
   
 ## Operadores ➕➗
   
-  Adição: &emsp;&emsp;&emsp;<b>+</b><br>
-  Subtração: &emsp;&emsp;&emsp;<b>-</b><br>
-  Multiplicação: &emsp;&emsp;&emsp;<b>*</b><br>
-  Divisão: &emsp;&emsp;&emsp;<b>/</b><br>
-  Módulo: &emsp;&emsp;&emsp;<b>%</b><br>
-  Exponenciação: &emsp;&emsp;&emsp;<b>**</b><br>
-  Resto: &emsp;&emsp;&emsp;<b>//</b><br><br>
+  Adição: &emsp;&emsp;<b>+</b><br>
+  Subtração: &emsp;&emsp;<b>-</b><br>
+  Multiplicação: &emsp;&emsp;<b>*</b><br>
+  Divisão: &emsp;&emsp;<b>/</b><br>
+  Módulo: &emsp;&emsp;<b>%</b><br>
+  Exponenciação: &emsp;&emsp;<b>**</b><br>
+  Resto: &emsp;&emsp;<b>//</b><br><br>
   
-  E: &emsp;&emsp;&emsp;<b>&</b><br>
-  Ou: &emsp;&emsp;&emsp;<b>|</b><br>
-  Não: &emsp;&emsp;&emsp;<b>~</b><br><br>
+  E: &emsp;&emsp;<b>&</b><br>
+  Ou: &emsp;&emsp;<b>|</b><br>
+  Não: &emsp;&emsp;<b>~</b><br><br>
 
 ## Tipos ⌨
 ### Convertendo os tipos:
