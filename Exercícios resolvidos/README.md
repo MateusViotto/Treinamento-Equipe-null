@@ -18,19 +18,19 @@ Booleano retorna True ou False.<br><br>
 <i>print( isinstace ( x , int ))</i><br>
 Verifica se x é um número inteiro.<br><br>
   
-## Operadores
+## Operadores ➕➗
   
-  Adição: <b>+</b><br>
-  Subtração: <b>-</b><br>
-  Multiplicação: <b>*</b><br>
-  Divisão: <b>/</b><br>
-  Módulo: <b>%</b><br>
-  Exponenciação: <b>**</b><br>
-  Resto: <b>//</b><br><br>
+  Adição: &emsp;&emsp;&emsp;<b>+</b><br>
+  Subtração: &emsp;&emsp;&emsp;<b>-</b><br>
+  Multiplicação: &emsp;&emsp;&emsp;<b>*</b><br>
+  Divisão: &emsp;&emsp;&emsp;<b>/</b><br>
+  Módulo: &emsp;&emsp;&emsp;<b>%</b><br>
+  Exponenciação: &emsp;&emsp;&emsp;<b>**</b><br>
+  Resto: &emsp;&emsp;&emsp;<b>//</b><br><br>
   
-  E: <b>&</b><br>
-  Ou: <b>|</b><br>
-  Não: <b>~</b><br><br>
+  E: &emsp;&emsp;&emsp;<b>&</b><br>
+  Ou: &emsp;&emsp;&emsp;<b>|</b><br>
+  Não: &emsp;&emsp;&emsp;<b>~</b><br><br>
 
 ## Tipos ⌨
 ### Convertendo os tipos:
