@@ -15,8 +15,8 @@ Booleano retorna True ou False.<br><br>
 <i>print(10 == 9) : False</i><br>
 <i>print(10 < 9) : False</i><br><br>
 
-<i>print(isinstace( x , int ))</i>
-Verifica se x é um número inteiro.
+<i>print( isinstace ( x , int ))</i><br>
+Verifica se x é um número inteiro.<br><br>
 
 ## Tipos ⌨
 ### Convertendo os tipos:
