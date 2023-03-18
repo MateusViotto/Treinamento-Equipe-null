@@ -8,6 +8,15 @@ Declara uma variável x com o valor 0<br><br>
 <i>int(x) = 0 </i><br>
 Declara uma variável inteira x com o valor 0<br><br>
 
+## Booleanos ⁉
+
+Booleano retorna True ou False.<br><br>
+<i>print(10 > 9) : True</i><br>
+<i>print(10 == 9) : False</i><br>
+<i>print(10 < 9) : False</i><br><br>
+
+<i>print(isinstace( x , int ))</i>
+Verifica se x é um número inteiro.
 
 ## Tipos ⌨
 ### Convertendo os tipos:
