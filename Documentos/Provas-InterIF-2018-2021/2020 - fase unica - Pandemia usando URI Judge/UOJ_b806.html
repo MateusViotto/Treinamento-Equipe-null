@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI 2002 - Trilha de Amigos</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 2002 - Trilha de Amigos" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://resources.urionlinejudge.com.br/repository/contest.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | 2002</span>
+			<h1>Trilha de Amigos</h1>
+			<div>
+				<p>Por Jones Mendonça de Souza, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  (IFSP – campus Barretos) <img src='https://resources.urionlinejudge.com.br/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p style="text-align:center"><img alt="" src="https://i.postimg.cc/rFRZqXFs/imgDEsc.png" style="height:396px; width:740px" /></p>
+
+<p>Após longos anos de espera, os meninos Rafael, Bryan e Luiggy ganharam de seus pais bicicletas equipadas para a realização de trilhas. Como eles são ainda novatos nesta modalidade, os pais resolveram desenvolver um aplicativo que montasse o percurso da trilha, com base no mapa da região local. Em um treinamento realizado como teste os pais observaram que os meninos são muito sedentários, a cada distrito/vilarejo pertencente aquela rota eles realizavam uma parada em um bar para comer salgado e tomar refrigerante, o que acaba atrasando o percurso final. Desta maneira, os pais desejam que o aplicativo crie o menor caminho contendo o menor número de distritos/vilarejos possíveis, para que não ocorram essas paradas indevidas. Ou seja, se temos uma rota única saindo de <strong>A</strong> até <strong>Z</strong>, com 20 Km, e uma rota alternativa de <strong>A</strong> para <strong>B</strong> chegando em <strong>Z</strong> com 20 Km, o algoritmo terá que exibir para os meninos a primeira rota (<strong>A</strong> até <strong>Z</strong>), pois é a rota que contém menos distritos/vilarejos.</p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A entrada é composta por um único mapa. Na primeira linha deverá ser informado, separados por um espaço, um inteiro <strong>N</strong> que indica o número de distritos/vilarejos daquela região e um inteiro <strong>M</strong> que indica o número de ligações entre pares de distritos/vilarejos. Na segunda linha há, separados por um espaço, dois pontos distintos <strong>S</strong> e <strong>B</strong>, que indicam respectivamente a origem e destino. Depois, separados por um espaço, seguem-se <strong>K</strong> linhas contendo as ligações entre os distritos/vilarejos <strong>A</strong> á <strong>Z</strong> seguido de um número inteiro <strong>D</strong>, que indica a distância em Km entre os distritos/vilarejos. Cada <strong>K</strong> linha representa uma ligação unidirecional, tanto <strong>S, B, A </strong>e<strong> B</strong> devem ser representados por uma única palavra, sem acentos e símbolos especiais.</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>A saída deverá apresentar em uma única linha todo o percurso, exibindo os distritos/vilarejos em que os meninos deverão passar começando pelo distrito/vilarejo origem até o distrito/vilarejo destino. O padrão de saída deverá obedecer aos exemplos apresentados abaixo.</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplos de Entrada</td>
+						<td>Exemplos de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>5 7</p>
+
+<p>Barretos Olimpia</p>
+
+<p>Barretos Moreira 1</p>
+
+<p>Barretos Ibitu 10</p>
+
+<p>Moreira Brejinho 5</p>
+
+<p>Ibitu Brejinho 10</p>
+
+<p>Brejinho Olimpia 15</p>
+
+<p>Ibitu Olimpia 11</p>
+
+<p>Barretos Olimpia 21</p>
+
+						</td>
+						<td>
+							<p>Percurso: Barretos--&gt; Olimpia</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+			<table>
+				<thead>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+								<p>4 4</p>
+
+<p>Barretos Araraquara</p>
+
+<p>Barretos Matao 40</p>
+
+<p>Matao Bueno 10</p>
+
+<p>Bueno Araraquara 10</p>
+
+<p>Matao Araraquara 20</p>
+
+						</td>
+						<td>
+							<p>Percurso: Barretos--&gt; Matao--&gt; Araraquara</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="footer">
+				Problema gerado para a Maratona de Programação InterIF. Enviado por Rafael Stoffalette João
+			</p>
+		</div>
+	</body>
+</html>

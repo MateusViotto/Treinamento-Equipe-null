@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI 2005 - Cadê o meu par?</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 2005 - Cadê o meu par?" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://resources.urionlinejudge.com.br/repository/contest.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | 2005</span>
+			<h1>Cadê o meu par?</h1>
+			<div>
+				<p>Por Daniel Corrêa Lobato, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  (IFSP – campus Catanduva) <img src='https://resources.urionlinejudge.com.br/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p>A sua <em>startup</em> de tecnologia criou um aplicativo que cria pares de usuários com base em suas afinidades: quanto mais parecidos os usuários, maior próximos eles ficam em um espaço de N dimensões, onde cada dimensão é uma característica. Diferentes grupos de usuário poderiam ser submetidos ao aplicativo para identificar os grupos mais homogêneos, ou seja, aqueles com menos diferença entre os usuários. A ideia parece muito boa, mas antes de partir atrás de dinheiro de fundos de investimento e de investidores anjo, sabiamente vocês resolveram construir um mínimo produto viável (MVP) analisando apenas duas características e, se ele funcionar, você pode ir atrás do dinheiro para o produto. Nesse MVP, cada usuário é identificado por dois valores reais positivos entre 0 e 1000. O primeiro valor indica, segundo uma escala, o quanto ele gosta de praia, e o segundo valor indica o quanto ele gosta de montanha. Os pares são formados pelos usuários que estejam mais próximo no plano cartesiano formado por essas duas características, e os pares são formados um a um. Quando um usuário encontra o seu par ideal, ele deixa de procurar por outro par. O seu papel é construir uma solução que, dado um conjunto de valores que descrevem os usuários, construir pares de usuários adequados, ou seja, aqueles que estão mais próximos no plano cartesiano, e calcular o índice de similaridade dentro do grupo de usuários, que é dado pela soma das distâncias entre os usuários de todos os pares. Por exemplo, considerando os quatro usuários da tabela abaixo, teríamos o par (1, 3) com distância 6.83, e o par (0, 2) com distância 30.55, e índice de similaridade de 37.38.</p>
+
+<p style="text-align:center"><img alt="" src="https://i.postimg.cc/pTG8khBs/img.png" style="height:181px; width:364px" /></p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A primeira linha contém um inteiro par positivo <strong>A</strong> (2 ≤ <strong>A</strong> ≤ 100) que indica o número de usuários no sistema. Cada uma das próximas <strong>A</strong> linhas contém um par de valores reais positivos, <strong>X</strong> e <strong>Y</strong> (0 ≤ <strong>X</strong>, <strong>Y</strong> ≤ 1000), que indicam a posição do usuário no plano cartesiano das características. Dois usuários diferentes nunca estão na mesma posição no plano cartesiano.</p>
+
+<p><br />
+&nbsp;</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>A saída é composta uma única linha contendo um número real positivo com 2 casas decimais que indica o índice de similaridade do conjunto de usuários informado</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplos de Entrada</td>
+						<td>Exemplos de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>4</p>
+
+<p>9.8 48.6</p>
+
+<p>42.1 8.9</p>
+
+<p>36 33.5</p>
+
+<p>12.8 37.9</p>
+
+						</td>
+						<td>
+							<p>36.46</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>2</p>
+
+<p>18.8 18</p>
+
+<p>27.2 34</p>
+
+                </td>
+                <td>
+                    <p>&nbsp;18.07</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>8</p>
+
+<p>36.1 38.9</p>
+
+<p>16.5 28.4</p>
+
+<p>2.4 41.3</p>
+
+<p>18.1 11.5</p>
+
+<p>40 26.1</p>
+
+<p>18.6 42.3</p>
+
+<p>48.5 12.4</p>
+
+<p>21.4 16.6</p>
+
+                </td>
+                <td>
+                    <p>87.92</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+			<p class="footer">
+				Problema gerado para a Maratona de Programação InterIF. Enviado por Rafael Stoffalette João
+			</p>
+		</div>
+	</body>
+</html>

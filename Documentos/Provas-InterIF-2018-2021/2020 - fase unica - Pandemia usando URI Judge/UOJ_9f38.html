@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI 2004 - Tabuleiro da Sorte</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 2004 - Tabuleiro da Sorte" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://resources.urionlinejudge.com.br/repository/contest.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | 2004</span>
+			<h1>Tabuleiro da Sorte</h1>
+			<div>
+				<p>Por José Rodolfo Beluzo, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  (IFSP – campus Araraquara) <img src='https://resources.urionlinejudge.com.br/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p>Bruno mora no país “<em>Maratolandia”</em> e estava caminhando pelo sitio do seu avô quando encontrou um jumento falante. Ele percebeu que este animal sempre ao término de suas falas falava uma sequência de números. Ele anotou a sequência dita pelo animal e, logo em seguida em sua trajetória, ele encontrou um tabuleiro em formato de uma matriz com os mesmos números. Ele percebeu que o tabuleiro continha nas posições 0x0 o ano atual; 0x1 o mês atual e 1x0 o dia atual. Os outros números internos pareciam aleatórios num primeiro momento.</p>
+
+<p style="text-align:center"><img alt="" src="https://i.postimg.cc/BnYFc1Qt/img.png" style="height:261px; width:565px" /></p>
+
+ 
+
+<p>Ele observou com mais calma e percebeu que aparentemente existia um padrão numérico ali. Todos os números, exceto os números das bordas (linha 0 ou coluna 0), eram a soma dos seus anteriores na horizontal esquerda, vertical superior e diagonal esquerda superior. Por exemplo, o número na posição 1x1 é a soma do número na posição T[1x0], T[0x1] e T[0x0]: 7+1+0 =&gt; 8. Quando o número estava nas bordas (linha ou coluna 0) e não pertenciam aos números ditos pelos animais(0x0, 0x1 e 1x0), estes seguiam o seguinte padrão: soma de suas posições (linha ou coluna não nula) + soma do anterior (de cima, caso o número estivesse na coluna 0; da esquerda, caso o número estivesse na linha 0). Por exemplo: O número da posição 0x2 é: T[0x1] + 2 =&gt; 7 + 2 =&gt; 9.</p>
+
+<p>Bruno descobriu que se colocasse respectivamente os números do dia, mês e ano nas posições 0x0, 0x1 e 1x0 respectivamente em uma matriz de tamanho “Resto da divisão do dia por 5 acrescido de 3”, o último número formado era um número de sorteio da loteria federal de “<em>Maratolandia”</em>. Agora bruno precisa criar um programa para descobrir qual será o número sorteado de cada dia na loteria e mudar sua sorte.</p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A primeira linha contém três inteiros que indicam respectivamente o dia, mês e o ano.</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>A saída é composta por um número inteiro que indica o número a ser premiado na loteria de “<em>Maratolandia”</em> para aquele dia.</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplos de Entrada</td>
+						<td>Exemplos de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>31 10 2000</p>
+
+						</td>
+						<td>
+							<p>27319</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>01 01 1999</p>
+
+                </td>
+                <td>
+                    <p>26071</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>29 12 2020</p>
+
+                </td>
+                <td>
+                    <p>3557673</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+			<p class="footer">
+				Problema gerado para a Maratona de Programação InterIF. Enviado por Rafael Stoffalette João
+			</p>
+		</div>
+	</body>
+</html>

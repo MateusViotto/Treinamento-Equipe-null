@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI 2010 - Transporte aéreo</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 2010 - Transporte aéreo" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://resources.urionlinejudge.com.br/repository/contest.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | 2010</span>
+			<h1>Transporte aéreo</h1>
+			<div>
+				<p>Por Rafael da Silva Muniz / André Bordignon / Joice Mendes / Denis Contini, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  (IFSP – campus Campinas) <img src='https://resources.urionlinejudge.com.br/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p>Com a epidemia do coronavírus diversas empresas de aviação tiveram que replanejar suas atividades. Algumas quebraram e outras diminuíram drasticamente suas rotas. Só no Brasil estima-se que a diminuição das rotas tenha chegado a 70% dos voos domésticos.</p>
+
+<p>Para mitigar suas perdas econômicas, uma empresa de fretamento de aeronaves começou a fazer transporte de cargas. A proposta é um modelo híbrido de ocupação com passageiros e carga na cabine de passageiros.</p>
+
+<p>As cargas transportadas são colocadas nos bagageiros superiores de cada assento e embaixo dos assentos da frente (conforme autorizado nos voos domésticos). Para cada banco vazio soma-se 100kg de carga que pode ser transportada. O avião tem capacidade para transportar 16 passageiros em 8 fileiras com dois assentos cada.</p>
+
+<p>Cada passagem aérea custa R$ 498,00 reais e cada quilo de carga custa R$ 6,35.</p>
+
+<p>Você foi contratado de forma emergencial para desenvolver um sistema que facilite essa nova forma de operação da aeronave, onde seja possível transportar carga e passageiros ao mesmo tempo.</p>
+
+<p>O sistema será desenvolvido exclusivamente para um único avião que vai do Rio de Janeiro para São Paulo.</p>
+
+<p>Seu sistema deve levantar quantos passageiros embarcarão no Rio de Janeiro e quantos quilos de carga serão transportados. Para ocupar um assento com carga basta que a carga seja maior que 0 e tenha até 100 quilos. Caso a carga ultrapasse 100 quilos ela ocupará mais de um assento (conforme a quantidade de quilos informada).</p>
+
+<p>No final do programa você deve mostrar na saída o lucro total do transporte (passageiros + carga) e o mapa da cabine onde com os valores <strong>P</strong> para passageiro, <strong>C</strong> para carga e <strong>V</strong> para vazio conforme a ocupação da aeronave.</p>
+
+<p>&nbsp;</p>
+
+<p><img alt="" src="https://i.postimg.cc/bv1XqRfF/img.png" style="height:235px; width:1146px" /></p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A entrada é constituída por uma única linha com dois valores separados por espaço. O primeiro valor contém um inteiro, <strong>P</strong> (0 ≤ <strong>P</strong> ≤ 16) indicando a quantidade de passageiros que embarcarão no avião. O segundo valor é um inteiro informando a quantidade de quilos que serão transportados <strong>Q</strong> (0 ≤ <strong>Q</strong> ≤ 1600).</p>
+
+<p><u>Observação</u>: Os gramas da carga devem ser ignoradas.</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>Seu programa deve produzir duas linhas. A primeira apresentando o lucro total do transporte (passageiro + carga) e a segunda linha é o mapa da cabine com o preenchimento pelo tipo de transporte.</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplos de Entrada</td>
+						<td>Exemplos de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>1 100</p>
+
+						</td>
+						<td>
+							<p>1133.00</p>
+
+<p>PVVVVVVV</p>
+
+<p>CVVVVVVV</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>16 0</p>
+
+                </td>
+                <td>
+                    <p>7968.00</p>
+
+<p>PPPPPPPP</p>
+
+<p>PPPPPPPP</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>10 420</p>
+
+                </td>
+                <td>
+                    <p>7647.00</p>
+
+<p>PPPPPCCC</p>
+
+<p>PPPPPCCV</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+			<p class="footer">
+				Problema gerado para a Maratona de Programação InterIF. Formatado por Rafael Stoffalette João
+			</p>
+		</div>
+	</body>
+</html>

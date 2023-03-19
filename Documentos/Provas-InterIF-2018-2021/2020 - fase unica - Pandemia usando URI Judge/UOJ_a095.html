@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI 2003 - Coronavirus</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 2003 - Coronavirus" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://resources.urionlinejudge.com.br/repository/contest.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | 2003</span>
+			<h1>Coronavirus</h1>
+			<div>
+				<p>Por Claudio Haruo Yamamoto e Giovana Yuko Nakashima, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  (IFSP – campus Salto) <img src='https://resources.urionlinejudge.com.br/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p>O ano de 2020 ficará registrado na história como aquele em que o mundo parou. Diante da pandemia decretada pela Organização Mundial da Saúde (OMS) em 11 de março, todas as nações, independentemente de seu tamanho territorial, populacional ou econômico voltaram a atenção para a alta taxa de contágio do vírus SARS-CoV-2. Mais de 20 milhões de pessoas no mundo já foram diagnosticadas com COVID-19, doença causada pelo novo coronavírus, que já levou a mais de 800 mil mortes. Ante as ausências de um protocolo para tratamento e de disponibilidade de uma vacina, as ações para enfrentamento têm sido alinhadas em duas principais frentes: a disponibilização de leitos padrão e de UTI equipados e com pessoal capacitado, reservados ao tratamento da doença, e no isolamento, distanciamento, higienização constante e proteção individual com a utilização de máscaras da população em geral. Em São Paulo, o monitoramento da pandemia tem sido realizado semanalmente, através das fases do Plano São Paulo, implantado pelo governo estadual que, dentre outros critérios, analisa a taxa de ocupação de leitos de UTI por COVID-19 em cada uma das microrregiões, em uma divisão baseada na organização por departamentos regionais de saúde. Com o objetivo de auxiliar no estudo da evolução da doença na microrregião do município em que reside, sua tarefa é, a partir de dados semanais de admissões e altas da UTI de uma microrregião, indicar o número de semanas em que a microrregião esteve classificada por fase, aplicando a taxa de ocupação na tabela abaixo.</p>
+
+<p style="text-align:center"><img alt="" src="https://i.postimg.cc/GhJZYnG2/img.png" style="height:124px; width:860px" /></p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A primeira linha contém dois inteiros, <strong>A</strong> e <strong>B</strong> (1 ≤ <strong>A</strong>, <strong>B</strong> ≤ 10<sup>3</sup>, <strong>B</strong> ≤ <strong>A</strong>), respectivamente, o número de leitos de UTI disponíveis e a situação inicial, ou seja, quantos deles já se encontravam ocupados antes dos dados de análise. O número de leitos de UTI disponíveis é constante e sempre será suficiente para atender à demanda.</p>
+
+<p>A partir da segunda linha, serão informados outros dois inteiros, <strong>X</strong> e <strong>Y</strong>, números de pacientes admitidos e de alta da UTI, respectivamente, na semana em questão (0 ≤ <strong>X</strong>, <strong>Y</strong> ≤ 10<sup>3</sup>). A análise deve ser encerrada quando não houver admitidos, nem pacientes que tiveram alta (<strong>X</strong> = <strong>Y</strong> = 0).</p>
+
+<p><br />
+&nbsp;</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>O programa deve produzir quatro linhas, uma para cada fase do plano, com a respectiva quantidade de semanas em que a microrregião foi classificada, conforme os exemplos a seguir.</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplos de Entrada</td>
+						<td>Exemplos de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>10 5</p>
+
+<p>2 0</p>
+
+<p>0 0</p>
+
+						</td>
+						<td>
+							<p>Fase 1: 0 semana(s)</p>
+
+<p>Fase 2: 1 semana(s)</p>
+
+<p>Fase 3: 0 semana(s)</p>
+
+<p>Fase 4: 0 semana(s)</p>
+
+<p>&nbsp;</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+			<table>
+				<thead>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+								<p>10 6</p>
+
+<p>1 0</p>
+
+<p>1 2</p>
+
+<p>3 0</p>
+
+<p>1 2</p>
+
+<p>1 4</p>
+
+<p>5 1</p>
+
+<p>0 1</p>
+
+<p>0 0</p>
+
+						</td>
+						<td>
+							<p>Fase 1: 2 semana(s)</p>
+
+<p>Fase 2: 3 semana(s)</p>
+
+<p>Fase 3: 1 semana(s)</p>
+
+<p>Fase 4: 1 semana(s)</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="footer">
+				Problema gerado para a Maratona de Programação InterIF. Enviado por Rafael Stoffalette João
+			</p>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI 2007 - Ajude a Liga dos Lendários Empilhadores de Copos</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 2007 - Ajude a Liga dos Lendários Empilhadores de Copos" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://resources.urionlinejudge.com.br/repository/contest.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | 2007</span>
+			<h1>Ajude a Liga dos Lendários Empilhadores de Copos</h1>
+			<div>
+				<p>Por Marcio Kassouf Crocomo, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  (IFSP – campus Piracicaba) <img src='https://resources.urionlinejudge.com.br/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p>Joca está aprendendo expressões aritméticas na escola, e está com dificuldades em entender a ordem em que as operações devem ser realizadas. Joca possui um irmão mais velho, chamado Juca, e pede ajuda ao irmão com suas tarefas. Juca, por sua vez, está muito empenhado em praticar um jogo chamado Liga dos Lendários Empilhadores de Copos. Assim, cada vez que seu irmão interrompe uma de suas partidas, Juca fica muito aborrecido, mas como um bom irmão, sempre o ajuda. A tarefa de Joca desta semana é resolver uma lista com várias expressões, formadas por somas e multiplicações. O erro mais comum de Joca é resolver a expressão aplicando todos os operadores na ordem em que aparecem, da esquerda para a direita (não respeitando a precedência das operações). Faça um programa para ajudar Joca nos estudos, contribuindo assim para que Juca consiga atingir um nível profissional em seu jogo.</p>
+
+<p><br />
+&nbsp;</p>
+
+<p>Ajude a Liga dos Lendários Empilhadores de Copos a conseguir mais um valioso integrante!</p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A primeira linha da entrada possui um número inteiro <strong>N</strong>, que pode variar de 2 a 8 (inclusive).</p>
+
+<p>A segunda linha contém uma sequência de dígitos representando uma expressão aritmética, formada por <strong>N</strong> números inteiros variando de 0 a 9 (inclusive), sendo que, entre cada um destes números, se encontra um operador aritmético, que pode ser o caractere “+”, representando uma soma, ou ”*”, representando uma multiplicação. Não existem espaços em branco entre os números e os operadores.</p>
+
+<p>A terceira linha possui um inteiro <strong>N</strong>, variando entre 0 e 43046721, representando a resposta de Joca.</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>A saída deve exibir a mensagem “Correto, Joca!”, caso a resposta de Joca esteja certa. Caso contrário, se a resposta de Joca for o valor resultante do seu erro mais comum (aplicar os operadores da esquerda para a direita, como se soma e multiplicação tivessem a mesma prioridade), a mensagem deve ser “Multiplicar antes de somar, Joca.”. Caso a resposta esteja errada, mas não se enquadre no caso descrito anteriormente, o programa deve exibir a mensagem “Errado.”.</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplo de Entrada</td>
+						<td>Exemplo de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>4</p>
+
+<p>2*3+4*5</p>
+
+<p>26</p>
+
+<p>4</p>
+
+<p>2*3+4*5</p>
+
+<p>50</p>
+
+<p>4</p>
+
+<p>2*3+4*5</p>
+
+<p>28</p>
+
+<p>3</p>
+
+<p>2*3+4</p>
+
+<p>10</p>
+
+<p>7</p>
+
+<p>2+3*4*5+1+2*0</p>
+
+<p>0</p>
+
+						</td>
+						<td>
+							<p>Correto, Joca!</p>
+
+<p>Multiply before adding, Joca!</p>
+
+<p>Wrong.</p>
+
+<p>Correto, Joca!</p>
+
+<p>Multiply before adding, Joca!</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+			<p class="footer">
+				Problema gerado para a Maratona de Programação InterIF. Enviado por Rafael Stoffalette João
+			</p>
+		</div>
+	</body>
+</html>

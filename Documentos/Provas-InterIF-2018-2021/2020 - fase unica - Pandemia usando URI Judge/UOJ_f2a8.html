@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URI 2006 - Risco de morte</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="URI Online Judge; www.urionlinejudge.edu.br" />
+		<meta name="description" content="URI Online Judge - Problema 2006 - Risco de morte" />
+
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="https://resources.urionlinejudge.com.br/repository/contest.css" />
+		
+	</head>
+	<body>
+		<div class="header">
+			<span>URI Online Judge | 2006</span>
+			<h1>Risco de morte</h1>
+			<div>
+				<p>Por Daniel Lobato, Instituto Federal de Educação, Ciência e Tecnologia de São Paulo  (IFSP – campus Catanduva) <img src='https://resources.urionlinejudge.com.br/gallery/images/flags/br.gif' alt='BR' /> Brazil</p>
+			</div>
+			<strong>Timelimit: 1</strong>
+		</div>
+
+		<div class="problem">
+
+			<div class="description">
+				<p>Um funcionário da saúde precisa explicar para as pessoas sobre o risco que estão correndo com o novo Corona Vírus. As pessoas não estão dando a devida atenção aos seus alertas, então ele resolve chamar atenção para o RISCO DE MORTE por COVID-19.</p>
+
+<p>Ele leu um artigo na revista Veja<sup>1</sup> que explicava o perfil de pessoas com o maior risco de morte por Covid-19 no Brasil, onde 0,1% da população é vítima fatal dessa doença, ele anotou alguns dados, adaptou outros e <u><strong>inventou</strong></u> alguns outros conforme a Tabela 1. Assim, ele precisa de um programa de computador que possui quatro entradas: 1) Se a pessoa é homem ou mulher (‘H’ ou ‘M’), 2) a idade da pessoa (número inteiro), 3) a cor da pele (‘P’ – Pardo ou Preto, ‘B’ – Branco e ‘A’ – Amarelo) e 4) a renda (número inteiro).</p>
+
+<p>Supondo que as variáveis aleatórias: S (Sexo – M e H), Idade (I<sub>1</sub>,I<sub>2</sub>,...,I<sub>n</sub>),&nbsp;R (Renda (R<sub>1</sub>,R<sub>2</sub>,...,R<sub>n</sub>)), C (cor - (C<sub>1</sub>,...,C<sub>n</sub>))&nbsp;são mutualmente independentes e supondo que a população aproximada do Brasil é de 200 milhões crie um algoritmo que retorne o total de pessoas que, possivelmente, foram vítimas fatais da Covid-19 e que tenham essas características.</p>
+
+<p><img alt="" src="https://i.postimg.cc/sf86xhfY/img.png" style="height:464px; width:793px" /></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><strong>OBS Importante:</strong> considere que todos os valores de entrada serão caracteres e números inteiros e a saída deve ser um número de ponto flutuante que deve ter <strong>2 casas decimais</strong> ("%.<u>2f</u>") usando ponto “.” para separar a parte inteira da decimal (formato americano). <strong>Exemplo</strong>: <strong>45.47</strong></p>
+
+<p>&nbsp;</p>
+
+<p>1 - https://veja.abril.com.br/saude/coronavirus-o-perfil-com-maior-risco-de-morte-por-covid-19/</p>
+			</div>
+			<h2>Entrada</h2>
+
+			<div class="input">
+				<p>A entrada do usuário para o programa deve ser da seguinte forma:</p>
+
+<p><strong>&gt;&gt; [H ou M] [Idade] [P ou B ou A] [Renda]</strong></p>
+
+<p>Exemplo: um usuário Homem, com 33 anos de idade, amarelo e renda de 2000 reais:</p>
+
+<p>&gt;&gt; H 33 A 2000</p>
+			</div>
+
+			<h2>Saída</h2>
+
+			<div class="output">
+				<p>A saída do programa pode ser:</p>
+
+<p>&lt;&lt; VALOR</p>
+
+<p>Onde VALOR é a provável (e neste caso, fictícia) de quantidade de pessoas vítimas fatais com essas características.</p>
+			</div>
+
+			<div class="both"></div>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Exemplos de Entrada</td>
+						<td>Exemplos de Saída</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="division">
+							<p>H 20 B 4500</p>
+
+						</td>
+						<td>
+							<p>438.48</p>
+
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>M 40 P 7000</p>
+
+                </td>
+                <td>
+                    <p>819.00</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="both"></div>
+
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="division">
+                    <p>H 12 A 1000</p>
+
+                </td>
+                <td>
+                    <p>107.18</p>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+			<p class="footer">
+				Problema gerado para a Maratona de Programação InterIF. Formatado por Rafael Stoffalette João
+			</p>
+		</div>
+	</body>
+</html>
