@@ -163,4 +163,9 @@ Retorna True/False caso "free" faça parte da variável txt.<br><br>
 - <b>upper()	        </b>&emsp;&emsp;&emsp;Converts a string into upper case
 - <b>zfill()	        </b>&emsp;&emsp;&emsp;Fills the string with a specified number of 0 values at the beginning
 
+## EOFError ⛔
 
+<i> try: <br>
+&emsp;#codigo <br><br>
+except EOFError: <br>
+&emsp; break <br><br></i>
