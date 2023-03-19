@@ -7,6 +7,9 @@ Faça um Programa que pergunte quanto você ganha por hora e o número de horas 
 Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o 
 Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
 
+![image](https://user-images.githubusercontent.com/96631827/226147803-c9cc91bf-628a-4d13-9c29-baad771c6272.png)
+
+
 - salário bruto.
 - quanto pagou ao INSS.
 - quanto pagou ao sindicato.
