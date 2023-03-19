@@ -109,9 +109,7 @@ Consulta o tamanho da variável "a".<br><br>
 print("free" in txt)</i><br>
 Retorna True/False caso "free" faça parte da variável txt.<br><br>
 
-<i>
-print("free" in txt)</i><br>
-Retorna True/False caso "free" faça parte da variável txt.<br><br>
+
 
 ### Métodos:
 
