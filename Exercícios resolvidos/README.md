@@ -1,5 +1,16 @@
 # Python 🐍💻
 
+## Print 💬
+
+### Printar uma variável
+
+<i> print( "{ :.1f}".format( x )) </i> <br>
+Imprime a variável x com 1 casa decimal <br><br>
+
+<i> print( f"{ x } ") </i> <br><br>
+
+<i> print( x ) </i> <br><br>
+
 ## Variáveis 🔠
 
 <i>x = 0 </i><br>
