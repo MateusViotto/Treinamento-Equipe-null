@@ -31,6 +31,9 @@ Verifica se x é um número inteiro.<br><br>
   E: &emsp;&emsp;<b>&</b><br>
   Ou: &emsp;&emsp;<b>|</b><br>
   Não: &emsp;&emsp;<b>~</b><br><br>
+  
+  Igual: &emsp;&emsp;<b>==</b><br>
+  Diferente: &emsp;&emsp;<b>!=</b><br>
 
 ## Tipos ⌨
 ### Convertendo os tipos:
