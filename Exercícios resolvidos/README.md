@@ -371,10 +371,10 @@ Retorna apenas os itens presentes que NÃO estão nos dois sets.<br><br>
 ![image](https://user-images.githubusercontent.com/96631827/226457464-5b30751b-5c41-4c96-b29a-d0b50f588d39.png)
 
 <i>set( album_set1 ).issuperset( album_set2 )</i><br>
-Checa se album_set1 contém todos os itens de album_set2.<br><br>
+Verifica se album_set1 contém todos os itens de album_set2.<br><br>
 
 <i>album_set1.difference( album_set2 ) </i><br>
-Encontra as diferençãs em set1 mas não em set2.<br><br>
+Encontra as diferenças em set1 mas não em set2.<br><br>
   
   
 ## EOFError ⛔
