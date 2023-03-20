@@ -310,6 +310,72 @@ Retorna o numero de elementos com um determinado valor.<br><br>
 
 <i>index( )</i><br>
 Retorna o indice em que se encontra um determinado valor.<br><br>
+
+  
+## Sets 📦
+
+<b>Diferente das tuplas e listas os sets não possuem uma ordem. Os sets possuem apenas valores unicos</b>
+  
+<i>thisset = {"apple", "banana", "cherry"}</i><br>
+Criando um set.<br><br>
+
+### Consultar itens de um set:
+
+<i>print( len( thisset))</i><br>
+Imprime o tamanho do set.<br><br>
+ 
+### Adicionar e remover itens de um set:
+  
+<i>thisset.add("orange")</i><br>
+Adiciona um item ao set.<br><br>
+  
+<i>thisset.update(tropical)</i><br>
+Adiciona os elementos de "tropical" ao set.<br><br>
+  
+<i>thisset.remove("banana")</i><br>
+Remove um item do set. <b>Se o item a ser excluído não existir ocorrerá um erro.</b><br><br>
+  
+<i>thisset.discard("banana")</i><br>
+Remove um item do set. <b>Se o item a ser excluído não existir NÃO ocorrerá um erro.</b><br><br>
+  
+<i>thisset.pop( )</i><br>
+Remove um item aleatório do set.<br><br>
+
+<i>thisset.clear( )</i><br>
+Limpa o set.<br><br>
+
+<i>del thisset</i><br>
+Exclui um set.<br><br>
+
+### Junções com sets:
+  
+  ![image](https://user-images.githubusercontent.com/96631827/226457376-b4c137b7-fb4f-4468-8bc4-679b7ed20454.png)
+  
+<i>set3 = set1.union(set2)</i><br>
+Une dois sets dentro de outro.<br><br>
+
+<i>x.intersection_update(y)</i><br>
+Mantém apenas os itens presentes nos dois sets.<br><br>
+
+<i>z = x.intersection(y)</i><br>
+Retorna apenas os itens presentes nos dois sets.<br><br>
+
+![image](https://user-images.githubusercontent.com/96631827/226458063-131024e6-06c5-4df0-8f5d-37dab8089c81.png)
+  
+<i>x.symmetric_difference_update(y)</i><br>
+Mantém apenas os itens presentes que NÃO estão nos dois sets.<br><br>
+ 
+<i>z = x.symmetric_difference(y)</i><br>
+Retorna apenas os itens presentes que NÃO estão nos dois sets.<br><br>
+  
+![image](https://user-images.githubusercontent.com/96631827/226457464-5b30751b-5c41-4c96-b29a-d0b50f588d39.png)
+
+<i>set( album_set1 ).issuperset( album_set2 )</i><br>
+Checa se album_set1 contém todos os itens de album_set2.<br><br>
+
+<i>album_set1.difference( album_set2 ) </i><br>
+Encontra as diferençãs em set1 mas não em set2.<br><br>
+  
   
 ## EOFError ⛔
 
