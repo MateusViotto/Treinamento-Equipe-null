@@ -203,7 +203,7 @@ thislist[-4:-1]
 Exemplos de consulta de itens da lista.<br><br>
 
 <i>if "apple" in thislist: <br>
-print("Yes, 'apple' is in the fruits list")</i><br>
+&emsp;print("Yes, 'apple' is in the fruits list")</i><br>
 Consulta se o item existe na lista.<br><br>
 
 ### Mudar itens da lista:
@@ -281,6 +281,36 @@ Retorna o numero de elementos com um determinado valor.<br><br>
 <i>index( )</i><br>
 Retorna o indice em que se encontra um determinado valor.<br><br>
 
+## Tuplas 📁
+
+<b>Diferente das listas as tuplas são imutáveis. Isso significa que não é possível alterá-la.<br>
+Uma tupla pode ser composta por vários tipos (int, float, str, bool)</b>
+  
+<i>thistuple = ( "item1", "item2", "item3" )</i><br>
+Criando uma tupla.<br><br>
+
+<i>thistuple( 1 ) <br>
+thistuple( -1 )<br>
+thistuple( 2:5 )<br>
+thistuple( :4 )<br>
+thistuple( 2: )<br>
+thistuple( -4:-1 )
+</i><br>
+Exemplos de consulta de itens da tupla.<br><br>
+
+### Juntar duas listas:
+
+<i>tupla3 = tupla2 + tupla1</i><br>
+Cria uma nova tupla baseada na junção de outras duas.<br><br>
+ 
+### Métodos:
+
+<i>count( )</i><br>
+Retorna o numero de elementos com um determinado valor.<br><br>
+
+<i>index( )</i><br>
+Retorna o indice em que se encontra um determinado valor.<br><br>
+  
 ## EOFError ⛔
 
 <i> try: <br>
