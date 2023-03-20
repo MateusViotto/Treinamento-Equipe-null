@@ -314,7 +314,7 @@ Retorna o indice em que se encontra um determinado valor.<br><br>
   
 ## Sets 📦
 
-<b>Diferente das tuplas e listas os sets não possuem uma ordem. Os sets possuem apenas valores unicos</b>
+<b>Diferente das tuplas e listas os sets não possuem uma ordem. Os sets possuem apenas valores unicos.</b>
   
 <i>thisset = {"apple", "banana", "cherry"}</i><br>
 Criando um set.<br><br>
