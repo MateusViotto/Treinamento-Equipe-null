@@ -177,6 +177,110 @@ Retorna True/False caso "free" faça parte da variável txt.<br><br>
 - <b>upper()	        </b>&emsp;&emsp;&emsp;Converts a string into upper case
 - <b>zfill()	        </b>&emsp;&emsp;&emsp;Fills the string with a specified number of 0 values at the beginning
 
+## Listas
+
+<b>Diferente das tuplas as listas são mutáveis. Isso significa que é possível alterá-la, adicionar ou remover itens. <br>
+Uma lista pode ser composta por vários tipos (int, float, str, bool)</b>
+
+<i>thislist = [ "item1", "item2", "item3" ]</i><br>
+Criando uma lista.<br><br>
+
+<i>mylist = thislist.copy()</i><br>
+Copia uma lista.<br><br>
+
+### Consultar itens da lista:
+
+<i>print( len( thislist))</i><br>
+Imprime o tamanho da lista.<br><br>
+
+<i>thislist[ 1 ] <br>
+thislist[ -1 ]<br>
+thislist[ 2:5 ]<br>
+thislist[ :4 ]<br>
+thislist[ 2: ]<br>
+thislist[-4:-1]
+</i><br>
+Exemplos de consulta de itens da lista.<br><br>
+
+<i>if "apple" in thislist: <br>
+print("Yes, 'apple' is in the fruits list")</i><br>
+Consulta se o item existe na lista.<br><br>
+
+### Mudar itens da lista:
+
+<i>thislist[1] = "blackcurrant"</i><br>
+Altera o segundo valor da lista.<br><br>
+
+<i>thislist[1:3] = ["blackcurrant", "watermelon"]</i><br>
+Altera o intervalo de valores da lista.<br><br>
+
+<i>thislist.insert(2, "watermelon")</i><br>
+Insere um novo item na posição sem substituir pelo valor naquela posição.<br><br>
+
+<i>thislist.append("orange")</i><br>
+Adiciona um item na lista.<br><br>
+
+<i>thislist.extend(["mango", "pineapple", "papaya"])</i><br>
+Adiciona mvários itens na lista.<br><br>
+
+<i>thislist.remove("banana")</i><br>
+Remove um item da lista.<br><br>
+
+<i>thislist.pop(1)</i><br>
+Remove um item de uma determinada posição da lista.<br><br>
+
+<i>thislist.pop()</i><br>
+Remove o último item da lista.<br><br>
+
+<i>del thislist[0]</i><br>
+Remove o primeiro item da lista.<br><br>
+
+<i>del thislist</i><br>
+Deleta a lista.<br><br>
+
+<i>thislist.clear()</i><br>
+Limpa a lista.<br><br>
+
+### Loop pela lista:
+
+<i>for x in thislist:</i><br>
+Percorre todos os itens da lista.<br><br>
+
+<i>newlist = [x for x in fruits if x != "apple"]</i><br>
+Cria uma lista a partir de outra lista com restrições.<br><br>
+
+<i>newlist = [x if x != "banana" else "orange" for x in fruits]</i><br>
+Cria uma nova lista a partir de outra, adicionando "orange" sempre quando é "banana".<br><br>
+
+### Organizar a lista:
+
+<i>thislist.sort()</i><br>
+Organiza a lista em ordem alfabetica.<br><br>
+
+<i>thislist.sort(reverse = True)</i><br>
+Organiza a lista em ordem reversa a alfabetica.<br><br>
+
+<i>def myfunc(n):<br>
+  return abs(n - 50)<br>
+  thislist.sort(key = myfunc)</i><br>
+Organiza a lista baseado em quão próximo o valor está de 50.<br><br>
+
+<i>thislist.sort(key = str.lower)</i><br>
+Organiza a lista em ordem alfabética separando as palavras com letras maiúsculas<br><br>
+
+### Juntar duas listas:
+
+<i>lista3 = lista2 + lista1</i><br>
+Cria uma nova lista baseada na junção de outras duas.<br><br>
+
+### Outros métodos
+
+<i>count( )</i><br>
+Retorna o numero de elementos com um determinado valor.<br><br>
+
+<i>index( )</i><br>
+Retorna o indice em que se encontra um determinado valor.<br><br>
+
 ## EOFError ⛔
 
 <i> try: <br>
