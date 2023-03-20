@@ -273,7 +273,7 @@ Organiza a lista em ordem alfabética separando as palavras com letras maiúscul
 <i>lista3 = lista2 + lista1</i><br>
 Cria uma nova lista baseada na junção de outras duas.<br><br>
 
-### Outros métodos
+### Outros métodos:
 
 <i>count( )</i><br>
 Retorna o numero de elementos com um determinado valor.<br><br>
