@@ -177,7 +177,7 @@ Retorna True/False caso "free" faça parte da variável txt.<br><br>
 - <b>upper()	        </b>&emsp;&emsp;&emsp;Converts a string into upper case
 - <b>zfill()	        </b>&emsp;&emsp;&emsp;Fills the string with a specified number of 0 values at the beginning
 
-## Listas
+## Listas 📋
 
 <b>Diferente das tuplas as listas são mutáveis. Isso significa que é possível alterá-la, adicionar ou remover itens. <br>
 Uma lista pode ser composta por vários tipos (int, float, str, bool)</b>
