@@ -4,9 +4,9 @@
 
 ### Printar uma variável
 
-<code>print( "{ :.1f}".format( x ))  
-Imprime a variável x com 1 casa decimal <br><br>
-</code>
+<code>print( "{ :.1f}".format( x ))</code>    
+Imprime a variável x com 1 casa decimal    
+
 <i> print( f"{ x } ") </i> <br><br>
 
 <i> print( x ) </i> <br><br>
