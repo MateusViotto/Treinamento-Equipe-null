@@ -4,30 +4,30 @@
 
 ### Printar uma variável
 
-<i> print( "{ :.1f}".format( x )) </i> <br>
-Imprime a variável x com 1 casa decimal <br><br>
+<code>print( "{ :.1f}".format( x ))</code>    
+Imprime a variável x com 1 casa decimal    
 
-<i> print( f"{ x } ") </i> <br><br>
+<code>print( f"{ x } ")</code>    
 
-<i> print( x ) </i> <br><br>
+<code>print( x ) </code>    
 
 ## Variáveis 🔠
 
-<i>x = 0 </i><br>
-Declara uma variável x com o valor 0<br><br>
+<code>x = 0 </code>  
+Declara uma variável x com o valor 0    
 
-<i>int(x) = 0 </i><br>
-Declara uma variável inteira x com o valor 0<br><br>
+<code>int(x) = 0 </code>  
+Declara uma variável inteira x com o valor 0    
 
 ## Booleanos ⁉
 
-Booleano retorna True ou False.<br><br>
-<i>print(10 > 9) : True</i><br>
-<i>print(10 == 9) : False</i><br>
-<i>print(10 < 9) : False</i><br><br>
+Booleano retorna True ou False.    
+<code>print(10 > 9) : True  
+print(10 == 9) : False    
+print(10 < 9) : False</code>    
 
-<i>print( isinstace ( x , int ))</i><br>
-Verifica se x é um número inteiro.<br><br>
+<code>print( isinstace ( x , int ))</code>  
+Verifica se x é um número inteiro.    
   
 ## Operadores ➕➗
   
@@ -47,88 +47,78 @@ Verifica se x é um número inteiro.<br><br>
   Diferente: &emsp;&emsp;<b>!=</b><br>
 
 ## Tipos ⌨
+  
 ### Convertendo os tipos:
-<i>int(2.2) : 2 </i><br>
-Converte um número float em um inteiro.<br><br>
+  
+<code>int(2.2) : 2 </code>  
+Converte um número float em um inteiro.    
 
-<i>float(2) : 2.0 </i><br>
-Converte um número inteiro em um float.<br><br>
+<code>float(2) : 2.0</code>  
+Converte um número inteiro em um float.    
 
-<i>str(2) : "2" </i><br>
-Converte um número em string.<br><br>
+<code>str(2) : "2"</code>  
+Converte um número em string.    
 
-<i>int(True) : 1 </i><br>
-Converte um booleano em inteiro.<br><br>
+<code>int(True) : 1 </code>  
+Converte um booleano em inteiro.    
 
-<i>bool(1) : True </i><br>
-Converte um inteiro em booleano.<br><br>
+<code>bool(1) : True</code>  
+Converte um inteiro em booleano.    
 
 ## String 📃
 
 ### Navegando pela string:
 
 #### Fatiando a string:
-<i>
-a[1]</i><br>
-Consulta a segunda letra da variável "a".<br><br>
+  
+<code>a[1]</code>  
+Consulta a segunda letra da variável "a".    
 
-<i>
-a[-1]</i><br>
-Consulta a última letra da variável "a".<br><br>
+<code>a[-1]</code>  
+Consulta a última letra da variável "a".    
 
-<i>
-a[0:10]</i><br>
-Consulta as letras no intervado de 0 a 10 da variável "a".<br><br>
+<code>a[0:10]</code>  
+Consulta as letras no intervado de 0 a 10 da variável "a".    
 
-<i>
-a[:10]</i><br>
-Consulta todas as letras até a 10 da variável "a".<br><br>
+<code>a[:10]</code>  
+Consulta todas as letras até a 10 da variável "a".    
 
-<i>
-a[1:]</i><br>
-Consulta todas as letras até da 1 em diante da variável "a".<br><br>
+<code>a[1:]</code>  
+Consulta todas as letras até da 1 em diante da variável "a".    
 
-<i>
-a[-10: -1]</i><br>
-Consulta as letras no intervado de 10 a 1 da variável "a".<br><br>
+<code>a[-10: -1]</code>  
+Consulta as letras no intervado de 10 a 1 da variável "a".    
 
 #### Modificando a string:
 
-<i>
-a.upper()</i><br>
-Capitaliza todas as letras da variável.<br><br>
+<code>a.upper()</code>  
+Capitaliza todas as letras da variável.    
 
-<i>
-a.lower()</i><br>
-Transforma todas as letras da variável em letras minúsculas.<br><br>
+<code>a.lower()</code>  
+Transforma todas as letras da variável em letras minúsculas.    
 
-<i>
-a.strip()</i><br>
-Remove todos os espaços da variável.<br><br>
+<code>a.strip()</code>  
+Remove todos os espaços da variável.    
 
-<i>
-a.replace("H", "J")</i><br>
-Substitui todas as letras "H" pela letra "J" na variável.<br><br>
+<code>a.replace("H", "J")</code>  
+Substitui todas as letras "H" pela letra "J" na variável.    
 
-<i>
-a.split(",")</i><br>
-Separa a string em tuplas.<br><br>
+<code>a.split(",")</code>  
+Separa a string em tuplas.    
 
 #### Outros:
-<i>
-len(a)</i><br>
-Consulta o tamanho da variável "a".<br><br>
+  
+<code>len(a)</code>  
+Consulta o tamanho da variável "a".    
 
-<i>
-print("free" in txt)</i><br>
-Retorna True/False caso "free" faça parte da variável txt.<br><br>
-
+<code>print("free" in txt)</code>  
+Retorna True/False caso "free" faça parte da variável txt.    
 
 
 ### Métodos:
 
 
-<b>Atenção: Todos os métodos retornam um novo valor, eles não alteram o valor original.</b>
+**Atenção: Todos os métodos retornam um novo valor, eles não alteram o valor original.**
 
 
 - <b>capitalize()	</b>&emsp;&emsp;&emsp;  Converts the first character to upper case
@@ -177,9 +167,347 @@ Retorna True/False caso "free" faça parte da variável txt.<br><br>
 - <b>upper()	        </b>&emsp;&emsp;&emsp;Converts a string into upper case
 - <b>zfill()	        </b>&emsp;&emsp;&emsp;Fills the string with a specified number of 0 values at the beginning
 
+## Listas 📋
+
+<b>Diferente das tuplas as listas são mutáveis. Isso significa que é possível alterá-la, adicionar ou remover itens. <br>
+Uma lista pode ser composta por vários tipos (int, float, str, bool)</b>
+
+<code>thislist = [ "item1", "item2", "item3" ]</code>  
+Criando uma lista.    
+
+<code>mylist = thislist.copy()</code>  
+Copia uma lista.    
+
+### Consultar itens da lista:
+
+<code>print( len( thislist))</code>  
+Imprime o tamanho da lista.<br><br>
+
+<code>thislist[ 1 ] <br>
+thislist[ -1 ]<br>
+thislist[ 2:5 ]<br>
+thislist[ :4 ]<br>
+thislist[ 2: ]<br>
+thislist[-4:-1]
+</code>    
+Exemplos de consulta de itens da lista.<br><br>
+
+<code>if "apple" in thislist: <br>
+&emsp;print("Yes, 'apple' is in the fruits list")</code>   
+Consulta se o item existe na lista.<br><br>
+
+### Mudar itens da lista:
+
+<code>thislist[1] = "blackcurrant"</code><br>
+Altera o segundo valor da lista.<br><br>
+
+<code>thislist[1:3] = ["blackcurrant", "watermelon"]</code>  
+Altera o intervalo de valores da lista.<br><br>
+
+<code>thislist.insert(2, "watermelon")</code>  
+Insere um novo item na posição sem substituir pelo valor naquela posição.<br><br>
+
+<code>thislist.append("orange")</code>  
+Adiciona um item na lista.<br><br>
+
+<code>thislist.extend(["mango", "pineapple", "papaya"])</code>  
+Adiciona mvários itens na lista.<br><br>
+
+<code>thislist.remove("banana")</code>  
+Remove um item da lista.<br><br>
+
+<code>thislist.pop(1)</code>  
+Remove um item de uma determinada posição da lista.<br><br>
+
+<code>thislist.pop()</code>  
+Remove o último item da lista.<br><br>
+
+<code>del thislist[0]</code>  
+Remove o primeiro item da lista.<br><br>
+
+<code>del thislist</code>  
+Deleta a lista.<br><br>
+
+<code>thislist.clear()</code>  
+Limpa a lista.<br><br>
+
+### Loop pela lista:
+
+<code>for x in thislist:</code>  
+Percorre todos os itens da lista.<br><br>
+
+<code>newlist = [x for x in fruits if x != "apple"]</code>  
+Cria uma lista a partir de outra lista com restrições.<br><br>
+
+<code>newlist = [x if x != "banana" else "orange" for x in fruits]</code>
+Cria uma nova lista a partir de outra, adicionando "orange" sempre quando é "banana".<br><br>
+
+### Organizar a lista:
+
+<code>thislist.sort()</code>
+Organiza a lista em ordem alfabetica.<br><br>
+
+<code>thislist.sort(reverse = True)</code>  
+Organiza a lista em ordem reversa a alfabetica.<br><br>
+
+<code>def myfunc(n):<br>
+  return abs(n - 50)<br>
+  thislist.sort(key = myfunc)</code>  
+Organiza a lista baseado em quão próximo o valor está de 50.<br><br>
+
+<code>thislist.sort(key = str.lower)</code>  
+Organiza a lista em ordem alfabética separando as palavras com letras maiúsculas<br><br>
+
+### Juntar duas listas:
+
+<code>lista3 = lista2 + lista1</code>  
+Cria uma nova lista baseada na junção de outras duas.<br><br>
+
+### Outros métodos:
+
+<code>count( )</code>  
+Retorna o numero de elementos com um determinado valor.<br><br>
+
+<code>index( )</code>  
+Retorna o indice em que se encontra um determinado valor.<br><br>
+
+## Tuplas 📁
+
+<b>Diferente das listas as tuplas são imutáveis. Isso significa que não é possível alterá-la.<br>
+Uma tupla pode ser composta por vários tipos (int, float, str, bool)</b>
+  
+<code>thistuple = ( "item1", "item2", "item3" )</code>  
+Criando uma tupla.<br><br>
+
+<code>thistuple( 1 ) <br>
+thistuple( -1 )<br>
+thistuple( 2:5 )<br>
+thistuple( :4 )<br>
+thistuple( 2: )<br>
+thistuple( -4:-1 )</code>  
+Exemplos de consulta de itens da tupla.<br><br>
+
+### Juntar duas listas:
+
+<code>tupla3 = tupla2 + tupla1</code>  
+Cria uma nova tupla baseada na junção de outras duas.<br><br>
+ 
+### Métodos:
+
+<code>count( )</code>  
+Retorna o numero de elementos com um determinado valor.<br><br>
+
+<code>index( )</code>  
+Retorna o indice em que se encontra um determinado valor.<br><br>
+
+  
+## Sets 📦
+
+<b>Diferente das tuplas e listas os sets não possuem uma ordem. Os sets possuem apenas valores unicos.</b>
+  
+<code>thisset = {"apple", "banana", "cherry"}</code>  
+Criando um set.<br><br>
+
+### Consultar itens de um set:
+
+<code>print( len( thisset))</code>  
+Imprime o tamanho do set.<br><br>
+ 
+### Adicionar e remover itens de um set:
+  
+<code>thisset.add("orange")</code>  
+Adiciona um item ao set.<br><br>
+  
+<code>thisset.update(tropical)</code>  
+Adiciona os elementos de "tropical" ao set.<br><br>
+  
+<code>thisset.remove("banana")</code>  
+Remove um item do set. <b>Se o item a ser excluído não existir ocorrerá um erro.</b><br><br>
+  
+<code>thisset.discard("banana")</code>
+Remove um item do set. <b>Se o item a ser excluído não existir NÃO ocorrerá um erro.</b><br><br>
+  
+<code>thisset.pop( )</code>  
+Remove um item aleatório do set.<br><br>
+
+<code>thisset.clear( )</code>  
+Limpa o set.<br><br>
+
+<code>del thisset</code>  
+Exclui um set.<br><br>
+
+### Junções com sets:
+  
+  ![image](https://user-images.githubusercontent.com/96631827/226457376-b4c137b7-fb4f-4468-8bc4-679b7ed20454.png)
+  
+<code>set3 = set1.union(set2)</code>  
+Une dois sets dentro de outro.<br><br>
+
+<code>x.intersection_update(y)</code>  
+Mantém apenas os itens presentes nos dois sets.<br><br>
+
+<code>z = x.intersection(y)</code>  
+Retorna apenas os itens presentes nos dois sets.<br><br>
+
+![image](https://user-images.githubusercontent.com/96631827/226458063-131024e6-06c5-4df0-8f5d-37dab8089c81.png)
+  
+<code>x.symmetric_difference_update(y)</code>  
+Mantém apenas os itens presentes que NÃO estão nos dois sets.<br><br>
+ 
+<code>z = x.symmetric_difference(y)</code>
+Retorna apenas os itens presentes que NÃO estão nos dois sets.<br><br>
+  
+![image](https://user-images.githubusercontent.com/96631827/226457464-5b30751b-5c41-4c96-b29a-d0b50f588d39.png)
+
+<code>set( album_set1 ).issuperset( album_set2 )</code>  
+Verifica se album_set1 contém todos os itens de album_set2.<br><br>
+
+<code>album_set1.difference( album_set2 )</code>  
+Encontra as diferenças em set1 mas não em set2.<br><br>
+  
+## Dicionário 📕
+
+<b>Dicionários são utilizados para armazenar dados em "keys". Um dicionário é uma coleção mutável que não permite duplicações.</b>  
+ 
+<code>thisdict = {<br>
+  "brand": "Ford",<br>
+  "model": "Mustang",<br>
+  "year": 1964<br>
+} </code>  
+Declarando um dicionário.<br><br>
+
+<code>thisdict = dict(name = "John", age = 36, country = "Norway")</code>  
+Declarando um dicionário utilizando um construtor.<br><br>
+ 
+<code>len(thisdict)</code>  
+Retorna o tamanho do dicionário.<br><br>
+### Acessar itens do dicionário:
+  
+<code>thisdict["brand"]</code>  
+Consultando um valor no dicionário.<br><br>
+
+<code>x = thisdict.get("model")</code>  
+Consultando um valor no dicionário.<br><br>
+
+<code>x = thisdict.keys()</code>  
+Retorna uma lista com as "keys".<br><br>
+  
+<code>x = thisdict.values()</code>  
+Retorna uma lista com os valores.<br><br>
+  
+<code>x = thisdict.items()</code>  
+Retorna uma lista com os itens.<br><br>
+
+### Mudar valores em um dicionário:
+
+<code>thisdict["year"] = 2018</code>  
+Altera um valor do dicionário.<br><br>
+
+<code>thisdict.update({"year": 2020})</code>  
+Altera um valor do dicionário.<br><br>
+
+<code>thisdict["color"] = "red"</code>  
+Adiciona um item do dicionário.<br><br>
+  
+<code>thisdict.update({"color": "red"})</code>  
+Adiciona um item do dicionário.<br><br>
+
+<code>thisdict.pop("model")</code>  
+Remove um item do dicionário.<br><br>
+
+<code>del thisdict["model"]</code>  
+Remove um item do dicionário.<br><br>
+
+<code>thisdict.clear()</code>  
+Limpa o dicionário.<br><br>
+
+## IF e ELSE 🔃
+
+### Operadores lógicos:
+
+Igual: &emsp;&emsp;<b>==</b><br>
+Diferente: &emsp;&emsp;<b>!=</b><br>
+Menor que: &emsp;&emsp;<b><</b><br><br>
+Menor ou igual a: &emsp;&emsp;<b><=</b><br><br>
+Maior que: &emsp;&emsp;<b>></b><br><br>
+Maior ou igual a: &emsp;&emsp;<b>>=</b><br><br>
+
+### Sintaxe:
+<code>if b > a:<br>
+&emsp;#código</code>  
+Verifica se b é maior que a.<br><br>
+
+<code>elif b == a:<br>
+&emsp;#código</code>  
+Verifica se b é igual a a caso a condição anterior seja falsa.<br><br>
+
+<code>else:<br>
+&emsp;#código</code>  
+É executado caso todas as condições sejam falsas.<br><br>
+
+### Maneiras curtas de escrever if:
+<code>if a > b: print("a is greater than b")</code>  
+É possível escrever o if em apenas uma linha.<br><br>
+  
+<code>print("A") if a > b else print("B")</code>  
+Diferentes prints para determinadas condições.<br><br>
+
+## While 🔄
+
+### Sintaxe:
+
+<code>while i < 6:<br>
+&emsp;#código</code>  
+Repete o código até que i seja maior ou igual a 6.<br><br>
+
+<code>break</code>  
+Interrompe o ciclo do while.<br><br>
+  
+## For ⏳
+ 
+### Sintaxe:
+
+<code>for x in fruits:<br>
+&emsp;#código</code>  
+Repete o código para cada item presente em fruits.<br><br> 
+
+<code>continue</code>  
+Retorna ao inicio do ciclo.<br><br>
+  
+### Funções: 
+  
+<code>for x in range(6):<br>
+&emsp;#código</code>  
+Repete o código até x atingir o valor do range.<br><br> 
+
+## Funções 🧱
+
+<code>def my_function():<br>
+&emsp;#código</code>  
+Cria uma função.<br><br> 
+
+<code>my_function()</code>  
+Chama uma função.<br><br>
+
+<code>return</code>  
+Retorna um valor.<br><br>
+ 
+## Classe 🌳
+
+<code>class MyClass<br>
+&emsp;#código</code>  
+Cria uma classe.<br><br> 
+
+<b>Uma função init é executada sempre quando a classe é chamada.</b><br>
+<code>class MyClass<br>
+&emsp;def __init__(self, name, age):<br>
+&emsp;&emsp;self.name = name<br>
+&emsp;&emsp;self.age = age</code>  
+Define uma função init.<br><br> 
+
 ## EOFError ⛔
 
-<i> try: <br>
+<code> try: <br>
 &emsp;#codigo <br><br>
 except EOFError: <br>
-&emsp; break <br><br></i>
+&emsp; break </code>    
