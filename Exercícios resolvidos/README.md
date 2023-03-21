@@ -376,6 +376,61 @@ Verifica se album_set1 contém todos os itens de album_set2.<br><br>
 <i>album_set1.difference( album_set2 ) </i><br>
 Encontra as diferenças em set1 mas não em set2.<br><br>
   
+## Dicionário 📕
+
+<b>Dicionários são utilizados para armazenar dados em "keys". Um dicionário é uma coleção mutável que não permite duplicações.</b>  
+ 
+<i>thisdict = {<br>
+  "brand": "Ford",<br>
+  "model": "Mustang",<br>
+  "year": 1964<br>
+} </i><br>
+Declarando um dicionário.<br><br>
+
+<i>thisdict = dict(name = "John", age = 36, country = "Norway")</i><br>
+Declarando um dicionário utilizando um construtor.<br><br>
+ 
+<i>len(thisdict)</i><br>
+Retorna o tamanho do dicionário.<br><br>
+### Acessar itens do dicionário:
+  
+<i>thisdict["brand"]</i><br>
+Consultando um valor no dicionário.<br><br>
+
+<i>x = thisdict.get("model")</i><br>
+Consultando um valor no dicionário.<br><br>
+
+<i>x = thisdict.keys()</i><br>
+Retorna uma lista com as "keys".<br><br>
+  
+<i>x = thisdict.values()</i><br>
+Retorna uma lista com os valores.<br><br>
+  
+<i>x = thisdict.items()</i><br>
+Retorna uma lista com os itens.<br><br>
+
+### Mudar valores em um dicionário:
+
+<i>thisdict["year"] = 2018</i><br>
+Altera um valor do dicionário.<br><br>
+
+<i>thisdict.update({"year": 2020})</i><br>
+Altera um valor do dicionário.<br><br>
+
+<i>thisdict["color"] = "red"</i><br>
+Adiciona um item do dicionário.<br><br>
+  
+<i>thisdict.update({"color": "red"})</i><br>
+Adiciona um item do dicionário.<br><br>
+
+<i>thisdict.pop("model")</i><br>
+Remove um item do dicionário.<br><br>
+
+<i>del thisdict["model"]</i><br>
+Remove um item do dicionário.<br><br>
+
+<i>thisdict.clear()</i><br>
+Limpa o dicionário.<br><br>
   
 ## EOFError ⛔
 
