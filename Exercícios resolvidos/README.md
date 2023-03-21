@@ -432,7 +432,7 @@ Remove um item do dicionário.<br><br>
 <i>thisdict.clear()</i><br>
 Limpa o dicionário.<br><br>
 
-## IF e ELSE 🧱
+## IF e ELSE 🔃
 
 ### Operadores lógicos:
 
@@ -465,7 +465,7 @@ Diferentes prints para determinadas condições.<br><br>
 
 ## While 🔄
 
-### Sintaxe
+### Sintaxe:
 
 <i>while i < 6:<br>
 &emsp;#código</i><br>
@@ -476,7 +476,7 @@ Interrompe o ciclo do while.<br><br>
   
 ## For ⏳
  
-### Sintaxe
+### Sintaxe:
 
 <i>for x in fruits:<br>
 &emsp;#código</i><br>
@@ -485,12 +485,37 @@ Repete o código para cada item presente em fruits.<br><br>
 <i>continue</i><br>
 Retorna ao inicio do ciclo.<br><br>
   
-### Funções 
+### Funções: 
   
 <i>for x in range(6):<br>
 &emsp;#código</i><br>
 Repete o código até x atingir o valor do range.<br><br> 
-  
+
+## Funções 🧱
+
+<i>def my_function():<br>
+&emsp;#código</i><br>
+Cria uma função.<br><br> 
+
+<i>my_function()</i><br>
+Chama uma função.<br><br>
+
+<i>return</i><br>
+Retorna um valor.<br><br>
+ 
+## Classe 🌳
+
+<i>class MyClass<br>
+&emsp;#código</i><br>
+Cria uma classe.<br><br> 
+
+<b>Uma função init é executada sempre quando a classe é chamada.</b>
+<i>class MyClass<br>
+&emsp;def __init__(self, name, age):<br>
+&emsp;&emsp;self.name = name<br>
+&emsp;&emsp;self.age = age</i><br>
+Define uma função init.<br><br> 
+
 ## EOFError ⛔
 
 <i> try: <br>
