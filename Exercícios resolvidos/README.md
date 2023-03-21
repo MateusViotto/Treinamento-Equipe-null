@@ -456,7 +456,13 @@ Verifica se b é igual a a caso a condição anterior seja falsa.<br><br>
 &emsp;#código</i><br>
 É executado caso todas as condições sejam falsas.<br><br>
 
-### 
+### Maneiras curtas de escrever if:
+<i>if a > b: print("a is greater than b")</i><br>
+É possível escrever o if em apenas uma linha.<br><br>
+  
+<i>print("A") if a > b else print("B")</i><br>
+Diferentes prints para determinadas condições.<br><br>
+
 ## EOFError ⛔
 
 <i> try: <br>
