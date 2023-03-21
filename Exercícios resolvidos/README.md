@@ -509,7 +509,7 @@ Retorna um valor.<br><br>
 &emsp;#código</i><br>
 Cria uma classe.<br><br> 
 
-<b>Uma função init é executada sempre quando a classe é chamada.</b>
+<b>Uma função init é executada sempre quando a classe é chamada.</b><br>
 <i>class MyClass<br>
 &emsp;def __init__(self, name, age):<br>
 &emsp;&emsp;self.name = name<br>
