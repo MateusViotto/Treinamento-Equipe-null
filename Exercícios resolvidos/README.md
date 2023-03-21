@@ -432,7 +432,7 @@ Remove um item do dicionário.<br><br>
 <i>thisdict.clear()</i><br>
 Limpa o dicionário.<br><br>
 
-## IF e ELSE
+## IF e ELSE 🧱
 
 ### Operadores lógicos:
 
@@ -463,6 +463,34 @@ Verifica se b é igual a a caso a condição anterior seja falsa.<br><br>
 <i>print("A") if a > b else print("B")</i><br>
 Diferentes prints para determinadas condições.<br><br>
 
+## While 🔄
+
+### Sintaxe
+
+<i>while i < 6:<br>
+&emsp;#código</i><br>
+Repete o código até que i seja maior ou igual a 6.<br><br>
+
+<i>break</i><br>
+Interrompe o ciclo do while.<br><br>
+  
+## For ⏳
+ 
+### Sintaxe
+
+<i>for x in fruits:<br>
+&emsp;#código</i><br>
+Repete o código para cada item presente em fruits.<br><br> 
+
+<i>continue</i><br>
+Retorna ao inicio do ciclo.<br><br>
+  
+### Funções 
+  
+<i>for x in range(6):<br>
+&emsp;#código</i><br>
+Repete o código até x atingir o valor do range.<br><br> 
+  
 ## EOFError ⛔
 
 <i> try: <br>
