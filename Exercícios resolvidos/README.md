@@ -431,7 +431,32 @@ Remove um item do dicionário.<br><br>
 
 <i>thisdict.clear()</i><br>
 Limpa o dicionário.<br><br>
-  
+
+## IF e ELSE
+
+### Operadores lógicos:
+
+Igual: &emsp;&emsp;<b>==</b><br>
+Diferente: &emsp;&emsp;<b>!=</b><br>
+Menor que: &emsp;&emsp;<b><</b><br><br>
+Menor ou igual a: &emsp;&emsp;<b><=</b><br><br>
+Maior que: &emsp;&emsp;<b>></b><br><br>
+Maior ou igual a: &emsp;&emsp;<b>>=</b><br><br>
+
+### Sintaxe:
+<i>if b > a:<br>
+&emsp;#código</i><br>
+Verifica se b é maior que a.<br><br>
+
+<i>elif b == a:<br>
+&emsp;#código</i><br>
+Verifica se b é igual a a caso a condição anterior seja falsa.<br><br>
+
+<i>else:<br>
+&emsp;#código</i><br>
+É executado caso todas as condições sejam falsas.<br><br>
+
+### 
 ## EOFError ⛔
 
 <i> try: <br>
