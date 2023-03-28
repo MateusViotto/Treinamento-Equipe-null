@@ -322,10 +322,10 @@ Adiciona um item ao set.<br><br>
 Adiciona os elementos de "tropical" ao set.<br><br>
   
 <code>thisset.remove("banana")</code>  
-<br>Remove um item do set. <b>Se o item a ser excluído não existir ocorrerá um erro.</b><br><br>
+Remove um item do set. <b>Se o item a ser excluído não existir ocorrerá um erro.</b><br><br>
   
 <code>thisset.discard("banana")</code>
-Remove um item do set. <b>Se o item a ser excluído não existir NÃO ocorrerá um erro.</b><br><br>
+<br>Remove um item do set. <b>Se o item a ser excluído não existir NÃO ocorrerá um erro.</b><br><br>
   
 <code>thisset.pop( )</code>  
 Remove um item aleatório do set.<br><br>
