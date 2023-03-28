@@ -316,6 +316,7 @@ Imprime o tamanho do set.<br><br>
 ### Adicionar e remover itens de um set:
   
 <code>thisset.add("orange")</code>  
+<code>thisset = set()</code>   
 Adiciona um item ao set.<br><br>
   
 <code>thisset.update(tropical)</code>  
