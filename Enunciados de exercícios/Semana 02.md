@@ -2,7 +2,7 @@
 
 Listas, dicionários, sets, tuplas…
 
-- Exercício 1162: [https://www.beecrowd.com.br/judge/pt/problems/view/1162](https://www.beecrowd.com.br/judge/pt/problems/view/1162)
+- <s> Exercício 1162: [https://www.beecrowd.com.br/judge/pt/problems/view/1162](https://www.beecrowd.com.br/judge/pt/problems/view/1162) </s>
 
 - Exercício 1167: [https://www.beecrowd.com.br/judge/pt/problems/view/1167](https://www.beecrowd.com.br/judge/pt/problems/view/1167)
 
