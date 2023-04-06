@@ -1,16 +1,22 @@
 n = int(input())
-saida = []
-while n > 0:
-    n -= 1
+swaps = []
+for i in range(n):
     l = int(input())
-    vagao = input().split()
+    entrada = input().split(" ")
+    saida = 0
+    j = 0
+    while entrada != sorted(entrada):
+        if entrada[j] > entrada[j+1]:
+            v1 = entrada[j]
+            v2 = entrada[j+1]
+            entrada[j] = v2
+            entrada[j+1] = v1
+            saida = saida + 1
+        j = j + 1
+        if j == len(entrada)-1:
+            j = 0
 
-    swap = 0
-    for i in range(l):
-        for j in range(i + 1, l):
-            if (int(vagao[i]) > int(vagao[j])):
-                vagao[i], vagao[j] = vagao[j], vagao[i]
-                swap = swap + 1
-    saida.append(swap)
-for x in saida:
-    print('Optimal train swapping takes %d swaps.' % x)
+    swaps.append(saida)
+
+for g in swaps:
+    print("Optimal train swapping takes {} swaps.".format(g))
