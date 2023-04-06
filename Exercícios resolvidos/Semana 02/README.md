@@ -3,7 +3,7 @@
 Listas, dicionários, sets, tuplas…
 
 - <s>Exercício 1162: [https://www.beecrowd.com.br/judge/pt/problems/view/1162]</s>
-(https://www.beecrowd.com.br/judge/pt/problems/view/1162)
+
 
 - Exercício 1167: [https://www.beecrowd.com.br/judge/pt/problems/view/1167](https://www.beecrowd.com.br/judge/pt/problems/view/1167)
 
