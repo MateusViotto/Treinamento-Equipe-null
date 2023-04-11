@@ -19,4 +19,4 @@ Listas, dicionários, sets, tuplas…
 
 - Exercício 3210: [https://www.beecrowd.com.br/judge/pt/problems/view/3210](https://www.beecrowd.com.br/judge/pt/problems/view/3210)
 
-- <s>Exercício 3248: [https://www.beecrowd.com.br/judge/pt/problems/view/3248]</s>(https://www.beecrowd.com.br/judge/pt/problems/view/3248)
+- <s>Exercício 3248: [https://www.beecrowd.com.br/judge/pt/problems/view/3248]</s>
