@@ -508,7 +508,8 @@ Define uma função init.<br><br>
 
 ## EOFError ⛔
 
-<code> try: <br>
-&emsp;#codigo <br><br>
-except EOFError: <br>
-&emsp; break </code>    
+<code>while True:
+&emsp;try: <br>
+&emsp;&emsp;#codigo <br><br>
+&emsp;&emsp;except EOFError: <br>
+&emsp;break </code>    
