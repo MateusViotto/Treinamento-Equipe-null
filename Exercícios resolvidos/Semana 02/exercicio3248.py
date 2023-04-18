@@ -1,1 +1,0 @@
-#Perguntar ao professor ou pesquisar sobre
