@@ -32,4 +32,9 @@ for i in range(n):
         lista.append("trempate")
     elif golB == golG or golB == golR or golG == golR:
         lista.append("empate")
+    golB = 0
+    golG = 0
+    golR = 0
 
+for v in lista:
+    print(v)
