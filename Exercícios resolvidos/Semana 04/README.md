@@ -12,7 +12,7 @@ Manipulação de strings
 
 - Exercício 1367: [https://www.beecrowd.com.br/judge/pt/problems/view/1367)
 
-- Exercício 1581: [https://www.beecrowd.com.br/judge/pt/problems/view/1581)
+- <s> Exercício 1581: [https://www.beecrowd.com.br/judge/pt/problems/view/1581) </s>
 
 - Exercício 1556: [https://www.beecrowd.com.br/judge/pt/problems/view/1556)
 
