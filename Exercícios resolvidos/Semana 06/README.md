@@ -3,7 +3,7 @@
 
 - Exercício 1264: [https://www.beecrowd.com.br/judge/pt/problems/view/1264]  
 
-- Exercício 1306: [https://www.beecrowd.com.br/judge/pt/problems/view/1306]  
+- <s>Exercício 1306: [https://www.beecrowd.com.br/judge/pt/problems/view/1306]</s>  
 
 - Exercício 1307: [https://www.beecrowd.com.br/judge/pt/problems/view/1307]  
 
@@ -17,4 +17,4 @@
 
 - Exercício 1662: [https://www.beecrowd.com.br/judge/pt/problems/view/1662]  
 
-- Exercício 1756: [https://www.beecrowd.com.br/judge/pt/problems/view/1756]  
+- <s>Exercício 1756: [https://www.beecrowd.com.br/judge/pt/problems/view/1756]</s>  
