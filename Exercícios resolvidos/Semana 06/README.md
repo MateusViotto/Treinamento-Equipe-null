@@ -11,7 +11,7 @@
 
 - <s>Exercício 1444: [https://www.beecrowd.com.br/judge/pt/problems/view/1444]</s>  
 
-- Exercício 1580: [https://www.beecrowd.com.br/judge/pt/problems/view/1580]   
+- <s>Exercício 1580: [https://www.beecrowd.com.br/judge/pt/problems/view/1580]</s>
 
 - Exercício 1654: [https://www.beecrowd.com.br/judge/pt/problems/view/1624]  
 
