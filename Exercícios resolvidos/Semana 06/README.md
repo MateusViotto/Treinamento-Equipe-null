@@ -9,7 +9,7 @@
 
 - Exercício 1381: [https://www.beecrowd.com.br/judge/pt/problems/view/1381]  
 
-- Exercício 1444: [https://www.beecrowd.com.br/judge/pt/problems/view/1444]  
+- <s>Exercício 1444: [https://www.beecrowd.com.br/judge/pt/problems/view/1444]</s>  
 
 - Exercício 1580: [https://www.beecrowd.com.br/judge/pt/problems/view/1580]   
 
