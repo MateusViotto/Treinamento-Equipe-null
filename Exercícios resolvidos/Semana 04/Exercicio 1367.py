@@ -1,5 +1,12 @@
 res = []
 
+class Exercicio:
+    def __init__(self, codigo:str) -> None:
+        self.codigo: str = codigo
+        self.tempo: int = 0
+        self.resolvido: bool = False
+
+
 c: dict[str,float] = {}
 
 while True:
