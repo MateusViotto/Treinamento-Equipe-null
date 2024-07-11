@@ -483,6 +483,14 @@ Repete o código até x atingir o valor do range.<br><br>
 
 ## Funções 🧱
 
+<code> def calcular_area_poligono(vertices):
+    area = 0
+    n = len(vertices)
+    for i in range(n):
+        j = (i + 1) % n
+        area += vertices[i][0] * vertices[j][1] - vertices[j][0] * vertices[i][1]
+    return abs(area) / 2 </code>
+    
 <code>def my_function():<br>
 &emsp;#código</code>  
 Cria uma função.<br><br> 
